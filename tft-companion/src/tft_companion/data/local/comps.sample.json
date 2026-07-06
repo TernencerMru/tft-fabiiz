@@ -1,0 +1,31 @@
+{
+  "source": "local",
+  "patch": "ejemplo",
+  "_notes": [
+    "Los nombres/ids deben existir en el set actual; resolve_comp() avisa de los que no encuentre.",
+    "position = [fila, columna] con fila 0 = primera linea (front) y fila 3 = ultima (back).",
+    "Este fichero es la referencia del esquema que deben producir todos los CompProvider."
+  ],
+  "comps": [
+    {
+      "id": "sample_front_to_back",
+      "name": "Ejemplo: Front-to-Back AP",
+      "avg_place": 4.2,
+      "units": [
+        { "name": "Ahri",  "role": "carry", "position": [3, 3], "items": ["Blue Buff", "Jeweled Gauntlet"] },
+        { "name": "Nasus", "role": "core",  "position": [0, 3] },
+        { "name": "Gnar",  "role": "core",  "position": [0, 4] },
+        { "name": "Gwen",  "role": "flex",  "position": [3, 5] }
+      ]
+    },
+    {
+      "id": "sample_reroll",
+      "name": "Ejemplo: Reroll",
+      "avg_place": 4.5,
+      "units": [
+        { "name": "Vex",   "role": "carry", "position": [3, 2] },
+        { "name": "Fiora", "role": "core",  "position": [0, 2] }
+      ]
+    }
+  ]
+}

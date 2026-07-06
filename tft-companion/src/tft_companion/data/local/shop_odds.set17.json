@@ -1,0 +1,28 @@
+{
+  "set": "17",
+  "set_name": "Space Gods",
+  "patch": "17.6",
+  "verified": "partial",
+  "_notes": [
+    "pool_sizes (30/25/18/10/9 copias por campeon) confirmados para Sets 14-17.",
+    "Anclajes Set 17 verificados: nivel 7 -> 10% de 4-costes; nivel 8 -> 30% de 4-costes; nivel 9 -> 33% de 4-costes y 15% de 5-costes.",
+    "El resto de filas usa la tabla base historica: VERIFICAR contra el panel de odds del propio juego (icono de la tienda) o https://www.metatft.com/tables/shop-odds antes de fiarse al 100%.",
+    "Set 18 sale el 12 de agosto de 2026 y casi seguro cambia estos valores: crea shop_odds.set18.json y apunta AppConfig.local_odds_file al nuevo fichero.",
+    "shop_odds: nivel -> [% coste1, % coste2, % coste3, % coste4, % coste5]."
+  ],
+  "pool_sizes": { "1": 30, "2": 25, "3": 18, "4": 10, "5": 9 },
+  "shop_odds": {
+    "1":  [100, 0, 0, 0, 0],
+    "2":  [100, 0, 0, 0, 0],
+    "3":  [75, 25, 0, 0, 0],
+    "4":  [55, 30, 15, 0, 0],
+    "5":  [45, 33, 20, 2, 0],
+    "6":  [30, 40, 25, 5, 0],
+    "7":  [19, 30, 40, 10, 1],
+    "8":  [16, 21, 30, 30, 3],
+    "9":  [10, 15, 27, 33, 15],
+    "10": [5, 10, 20, 40, 25]
+  },
+  "xp_to_next_level": { "1": 2, "2": 2, "3": 6, "4": 10, "5": 20, "6": 36, "7": 48, "8": 80, "9": 84 },
+  "reroll_cost": 2
+}
